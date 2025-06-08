@@ -54,7 +54,7 @@ def display_bounced_logs(bounced_logs):
 def display_bounce_reason_statistics(bounce_reasons, domain_filter=None):
     bounce_reason_counts = Counter(bounce_reasons)
     print("----------------------------------------")
-    print("mlog.py", f" (Filtered: {domain_filter})" if domain_filter else "")
+    print("mailog.py.py", f" (Filtered: {domain_filter})" if domain_filter else "")
     print("----------------------------------------")
     print(f"✅ Sent (Erfolgreich zugestellt):                           {bounce_reason_counts.get('sent', 0)}")
     print(f"⏳ Deferred (Vorübergehende Verzögerung der Zustellung):    {bounce_reason_counts.get('deferred', 0)}")
