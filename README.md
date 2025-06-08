@@ -1,4 +1,4 @@
-# maillog.py - Ein schneller Analysator für Postfix-Mail-Logs.
+# Ein einfacher Analysator für Postfix-Mail-Logs.
 
 `maillog.py` ist ein Kommandozeilen-Tool, das `maillog.processed`-Dateien analysiert, um einen schnellen Überblick über den E-Mail-Zustellstatus zu geben. Es aggregiert Statistiken zu gesendeten, zurückgestellten, abgelehnten und fehlgeschlagenen E-Mails und bietet Optionen für eine tiefere Analyse.
 Ziel ist die häufigsten Analyse-Aufgaben, um Probleme bei der E-Mail-Zustellung schnell zu diagnostizieren.
