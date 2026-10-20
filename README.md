@@ -24,7 +24,7 @@ Ziel ist die häufigsten Analyse-Aufgaben, um Probleme bei der E-Mail-Zustellung
 Es ist keine komplexe Installation erforderlich. Laden Sie das Skript einfach auf Ihren Server und machen Sie es ausführbar.
 
 ```bash
-wget https://your-repo-url/maillog.py
+wget -O maillog.py https://raw.githubusercontent.com/a-riddle-fan/maillog.py/main/mailog.py
 chmod +x maillog.py
 ```
 
